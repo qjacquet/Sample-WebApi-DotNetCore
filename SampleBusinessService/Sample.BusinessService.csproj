@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SampleDalModels\Sample.DalModels.csproj" />
+    <ProjectReference Include="..\SampleDal\Sample.Dal.csproj" />
+    <ProjectReference Include="..\SampleDtos\Sample.Dtos.csproj" />
+  </ItemGroup>
+
+</Project>
